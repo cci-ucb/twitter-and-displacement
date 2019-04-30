@@ -9,7 +9,7 @@ All notebooks can be found in the [`notebooks`](./notebooks) subdirectory. Speci
 - [Textual analysis of La L/El Bronx](./notebooks/bogota_LaL_ElBronx.ipynb)
 - [Process of creating home location identification methodology](./notebooks/home_location_identification_methodology.ipynb)
 
- Many of the notebooks use scripts that can be found in the [`scripts`](./scripts) subdirectory; this directory also contains a copy of the R script `home_geography.R` created by [Ate Poorthuis](https://github.com/atepoorthuis), which was referenced to port the same methodology to Python [`home_location.py`](`./scripts/home_location.py`).
+ Many of the notebooks use scripts that can be found in the [`scripts`](./scripts) subdirectory; this directory also contains a copy of the R script [`home_geography.R`](./scripts/home_geography.R) created by [Ate Poorthuis](https://github.com/atepoorthuis), which was referenced to port the same methodology to Python [`home_location.py`](./scripts/home_location.py).
 
 ## Setup
 

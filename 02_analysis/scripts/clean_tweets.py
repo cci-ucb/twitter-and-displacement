@@ -32,6 +32,7 @@ def convert_shapefile_crs(shapefile):
     """
     Convert shapefile CRS to WGS84 (epsg:4326).
     Function may take a while to run.
+    Source: https://gis.stackexchange.com/a/127432
     
     Parameters
     ----------

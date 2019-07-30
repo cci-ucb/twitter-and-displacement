@@ -7,7 +7,12 @@ This directory contains work done by [Junseo Park](http://www.github.com/junseo-
 All notebooks can be found in the [`notebooks`](./notebooks) subdirectory. Specifically:
 
 - [Textual analysis of La L/El Bronx](./notebooks/bogota_LaL_ElBronx.ipynb)
-- [Process of creating home location identification methodology](./notebooks/home_location_identification_methodology.ipynb)
+- Home location analysis of Buenos Aires tweets
+	- [2012](./notebooks/ba_2012.ipynb)
+	- [2013](./notebooks/ba_2013.ipynb)
+	- [2014](./notebooks/ba_2014.ipynb)
+	- [2015](./notebooks/ba_2015.ipynb)
+- [Process of creating home location identification methodology](./methodology_home_location_identification.ipynb)
 
  Many of the notebooks use scripts that can be found in the [`scripts`](./scripts) subdirectory; this directory also contains a copy of the R script [`home_geography.R`](./scripts/home_geography.R) created by [Ate Poorthuis](https://github.com/atepoorthuis), which was referenced to port the same methodology to Python [`home_location.py`](./scripts/home_location.py).
 

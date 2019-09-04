@@ -81,7 +81,7 @@ def filter_and_home_assign(data, shapefile, lower, upper):
     filtered['hour'] = filtered['timestamp'].dt.hour
     
     # Add home location
-    filtered['home'] = assign_home_location(filtered, tract='OBJECTID')
-    filtered['is_home'] = filtered['OBJECTID'] == filtered['home']
+    filtered['home'] = assign_home_location(filtered, tract='SECU_CCNCT')
+    filtered['is_home'] = filtered['SECU_CCNCT'] == filtered['home']
     
     return filtered
